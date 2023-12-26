@@ -1,0 +1,59 @@
+/* CSS for the form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* CSS for the form title */
+.form-container h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS for input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* CSS for the email availability status message */
+#user-availability-status {
+    color: #FF0000;
+}
+
+/* CSS for buttons */
+.form-container button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles can be added based on your design preferences */
+
+/* Center the form on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
